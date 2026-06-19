@@ -1,0 +1,16 @@
+{
+  "name": "07_Pub_Sub",
+  "version": "1.0.0",
+  "description": "learn redis",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "nodemon src/api.js",
+    "subscriber": "nodemon src/subscribers.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.78.1",
+    "express": "^4.18.2",
+    "ioredis": "^5.4.1"
+  }
+}
