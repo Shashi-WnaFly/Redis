@@ -1,0 +1,15 @@
+{
+  "name": "06_BullMQ",
+  "version": "1.0.0",
+  "description": "learn redis",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/api.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.78.1",
+    "express": "^4.18.2",
+    "ioredis": "^5.4.1"
+  }
+}
